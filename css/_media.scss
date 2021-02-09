@@ -1,3 +1,51 @@
+@media screen and (max-width: 1550px){
+
+    .portfolio{
+        .box-1{
+            .cloud{
+                width: 300px;
+            }
+        }
+
+
+    }
+
+    @keyframes cloud_1{
+        0%{}
+        100%{transform:translateY(30%);
+             opacity: 20%;}
+    }
+    @keyframes cloud_2{
+        0%{}
+        100%{transform:translateX(-30%);
+             opacity: 20%;}
+    }
+    @keyframes cloud_3{
+        0%{}
+        100%{transform:translateX(30%);
+             opacity: 20%;}
+    }
+    
+
+    
+}
+
+
+@media screen and (max-width: 1550px){
+
+    .portfolio{
+        .box-1{
+            .cloud{
+                width: 250px;
+            }
+        }
+
+
+    }
+}
+
+
+
 @media screen and (max-width: 1050px){
     .main-header{
         .menu-icon{
@@ -110,6 +158,57 @@
 
 
 
+
+
+
+
+@media screen and (max-width: 800px){
+
+    .portfolio{
+        .box-1{
+
+            .cloud{
+                transform: translateY(-50%);
+                width: 250px;
+               
+                &.one{
+                    transform: translateY(-10%);
+                }
+                &.two{
+                    transform: translate(-30%, -20%);
+                }
+                &.three{
+                    transform: translate(40%,-10%);
+                }
+            }
+        }
+    }
+
+    @keyframes cloud_1{
+        0%{}
+        100%{transform:translateY(1%);
+             opacity: 20%;}
+    }
+    @keyframes cloud_2{
+        0%{}
+        100%{transform:translate(-60%, -50%);
+             opacity: 20%;}
+    }
+    @keyframes cloud_3{
+        0%{}
+        100%{transform:translate(60%, -50%);
+             opacity: 20%;}
+    }
+
+}
+
+
+
+
+
+
+
+
 @media screen and (max-width: 665px){
     .main-name{
         h1{
@@ -119,4 +218,83 @@
             font-size: 1rem;
         }
     }
+    .portfolio{
+        .box-1{
+            h2{
+                font-size: 2.5rem;
+            }
+            img{
+                width: 150px;
+            }
+
+            .cloud{
+                transform: translateY(-20%);
+                width: 150px;
+
+                &.one{
+                    transform: translateY(-30%);
+                }
+            }
+        }
+    }
+
+
+    @keyframes cloud_1{
+        0%{}
+        100%{transform:translateY(10%);
+             opacity: 20%;}
+    }
+    @keyframes cloud_2{
+        0%{}
+        100%{transform:translate(-30%, -40%);
+             opacity: 20%;}
+    }
+    @keyframes cloud_3{
+        0%{}
+        100%{transform:translateX(30%);
+             opacity: 20%;}
+    }
+    
+}
+
+
+@media screen and (max-width: 550px){
+
+
+    .portfolio{
+        .box-1{
+            .cloud{
+                transform: translateY(-60%);
+                width: 150px;
+
+                &.one{
+                    transform: translateY(-40%);
+                }
+                &.two{
+                    transform: translate(-30%, -40%);
+                }
+                &.three{
+                    transform: translate(50%,-20%);
+                }
+            }
+        }
+    }
+
+    @keyframes cloud_1{
+        0%{}
+        100%{transform:translateY(1%);
+             opacity: 20%;}
+    }
+    @keyframes cloud_2{
+        0%{}
+        100%{transform:translate(-60%, -50%);
+             opacity: 20%;}
+    }
+    @keyframes cloud_3{
+        0%{}
+        100%{transform:translate(60%, -50%);
+             opacity: 20%;}
+    }
+
+
 }

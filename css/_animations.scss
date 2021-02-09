@@ -90,14 +90,18 @@
 //CLOUDS HOVER
 
 @keyframes cloud_1{
-    from {bottom: 30px;}
-    to {bottom: 5px; opacity: 40%;}
+    0%{}
+    100%{transform:translateY(30%);
+         opacity: 20%;}
 }
 @keyframes cloud_2{
-    from {right: 10%;}
-    to {right: 20%;opacity: 40%;}
+    0%{}
+    100%{transform:translateX(-30%);
+         opacity: 20%;}
 }
 @keyframes cloud_3{
-    from { right: 320px;}
-    to { right: 250px; opacity: 40%;}
+    0%{}
+    100%{transform:translateX(30%);
+         opacity: 20%;}
 }
+
