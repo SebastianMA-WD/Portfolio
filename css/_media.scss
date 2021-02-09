@@ -1,3 +1,90 @@
+@media screen and (max-width: 2561px){
+
+    .portfolio{
+        .box-1{
+            .cloud{
+                width: 300px;
+
+                &.one{
+                    transform: translateY(-40%);
+                }
+
+                &.two{
+                    transform: translate(60%,-40%);
+                }
+
+                &.three{
+                    transform: translate(-60%,-20%);
+                }
+            }
+        }
+
+        .down{
+            right: 28.4%;
+        }
+    }
+
+
+    @keyframes cloud_1{
+        0%{}
+        100%{transform:translateY(-5%);
+             opacity: 20%;}
+    }
+    @keyframes cloud_2{
+        0%{}
+        100%{transform:translate(-5%,-50%);
+             opacity: 20%;}
+    }
+    @keyframes cloud_3{
+        0%{}
+        100%{transform:translate(5%,-60%);
+             opacity: 20%;}
+    }
+
+
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1920px){
+    .portfolio{
+        .box-1{
+            .cloud{
+                width: 300px;
+
+                &.one{
+                    transform: translateY(-10%);
+                }
+
+                &.two{
+                    transform: translate(10%,-10%);
+                }
+
+                &.three{
+                    transform: translate(-10%,-10%);
+                }
+            }
+        }
+    }
+
+    @keyframes cloud_1{
+        0%{}
+        100%{transform:translateY(15%);
+             opacity: 20%;}
+    }
+}             
+
+
+
+
+
+
+
 @media screen and (max-width: 1550px){
 
     .portfolio{
@@ -6,15 +93,15 @@
                 width: 250px;
 
                 &.one{
-                    transform: translateY(-10%);
+                    transform: translateY(-60%);
                 }
 
                 &.two{
-                    transform: translate(-10%,-15%);
+                    transform: translate(10%,-50%);
                 }
 
                 &.three{
-                    transform: translate(10%,-10%);
+                    transform: translate(-10%,-40%);
                 }
             }
         }
@@ -26,17 +113,17 @@
 
     @keyframes cloud_1{
         0%{}
-        100%{transform:translateY(30%);
+        100%{transform:translateY(-20%);
              opacity: 20%;}
     }
     @keyframes cloud_2{
         0%{}
-        100%{transform:translateX(-30%);
+        100%{transform:translate(-30%,-50%);
              opacity: 20%;}
     }
     @keyframes cloud_3{
         0%{}
-        100%{transform:translateX(30%);
+        100%{transform:translate(30%,-40%);
              opacity: 20%;}
     }
     
@@ -57,6 +144,8 @@
             &_line{
                 animation: closedMid 0.8s backwards;
                 animation-direction: reverse;
+                height: 3px;
+                width: 20px;
 
                 &::before{
                     animation: closedTop 0.8s backwards;
@@ -171,13 +260,86 @@
 
 
 
+
+@media screen and (max-width: 1025px){
+
+    .main-name {
+    
+        h1{
+        font-size: 3rem;
+        }
+
+        h3{
+            font-size: 2rem;
+        }
+    }
+
+    .portfolio{
+        .box-1{
+            h2{
+                font-size: 5rem;
+            }
+            .cloud{
+                width: 350px;
+
+                &.one{
+                    transform: translateY(-10%);
+                }
+                &.two{
+                    transform: translate(-30%,-20%);
+                }
+                &.three{
+                    transform: translate(40%,-10%);
+                }
+            }
+        }
+    }
+
+    @keyframes cloud_1{
+        0%{}
+        100%{transform:translateY(20%);
+             opacity: 20%;}
+    }
+    @keyframes cloud_2{
+        0%{}
+        100%{transform:translate(-60%, -50%);
+             opacity: 20%;}
+    }
+    @keyframes cloud_3{
+        0%{}
+        100%{transform:translate(60%, -50%);
+             opacity: 20%;}
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
 @media screen and (max-width: 800px){
 
+    .main-name {
+    
+        h1{
+        font-size: 3rem;
+        }
+
+        h3{
+            font-size: 2rem;
+        }
+    }
+    
     .portfolio{
         .box-1{
 
             .cloud{
-                transform: translateY(-50%);
                 width: 250px;
                
                 &.one{
@@ -195,7 +357,7 @@
 
     @keyframes cloud_1{
         0%{}
-        100%{transform:translateY(1%);
+        100%{transform:translateY(-5%);
              opacity: 20%;}
     }
     @keyframes cloud_2{
@@ -211,6 +373,32 @@
 
 }
 
+
+
+
+
+@media screen and (max-width: 770px){
+
+    .portfolio{
+        .box-1{
+
+            .cloud{
+                width: 300px;
+               
+                &.one{
+                    transform: translateY(-25%);
+                }
+                &.two{
+                    transform: translate(-50%, -20%);
+                }
+                &.three{
+                    transform: translate(50%,-10%);
+                }
+            }
+        }
+    }
+
+}
 
 
 
