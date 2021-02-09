@@ -116,8 +116,9 @@
   right: 27.7%;
 }
 
-.portfolio .down span {
+.portfolio .down .o {
   color: #00b4d8;
+  background: none;
 }
 
 .main-header {
@@ -341,10 +342,10 @@
     width: 300px;
   }
   .portfolio .box-1 .cloud.one {
-    transform: translateY(-40%);
+    transform: translateY(-25%);
   }
   .portfolio .box-1 .cloud.two {
-    transform: translate(60%, -40%);
+    transform: translate(60%, -30%);
   }
   .portfolio .box-1 .cloud.three {
     transform: translate(-60%, -20%);
@@ -440,6 +441,24 @@
       transform: translate(30%, -40%);
       opacity: 20%;
     }
+  }
+}
+
+@media screen and (max-width: 1441px) {
+  .portfolio .box-1 .cloud {
+    width: 250px;
+  }
+  .portfolio .box-1 .cloud.one {
+    transform: translateY(-40%);
+  }
+  .portfolio .box-1 .cloud.two {
+    transform: translate(10%, -30%);
+  }
+  .portfolio .box-1 .cloud.three {
+    transform: translate(-5%, -25%);
+  }
+  .portfolio .down {
+    right: 27.4%;
   }
 }
 
@@ -662,13 +681,19 @@
     width: 150px;
   }
   .portfolio .box-1 .cloud.one {
-    transform: translateY(-30%);
+    transform: translateY(-80%);
+  }
+  .portfolio .box-1 .cloud.two {
+    transform: translate(-20%, -60%);
+  }
+  .portfolio .box-1 .cloud.three {
+    transform: translate(20%, -50%);
   }
   @keyframes cloud_1 {
     0% {
     }
     100% {
-      transform: translateY(10%);
+      transform: translateY(-55%);
       opacity: 20%;
     }
   }
@@ -676,7 +701,7 @@
     0% {
     }
     100% {
-      transform: translate(-30%, -40%);
+      transform: translate(-50%, -60%);
       opacity: 20%;
     }
   }
@@ -684,7 +709,7 @@
     0% {
     }
     100% {
-      transform: translateX(30%);
+      transform: translate(50%, -50%);
       opacity: 20%;
     }
   }
@@ -751,5 +776,9 @@ body {
 
 html, body {
   overflow-x: hidden;
+}
+
+.fp-right ul li .active span {
+  background: #fff;
 }
 /*# sourceMappingURL=main.css.map */

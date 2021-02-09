@@ -6,11 +6,11 @@
                 width: 300px;
 
                 &.one{
-                    transform: translateY(-40%);
+                    transform: translateY(-25%);
                 }
 
                 &.two{
-                    transform: translate(60%,-40%);
+                    transform: translate(60%,-30%);
                 }
 
                 &.three{
@@ -130,6 +130,45 @@
 
     
 }
+
+
+
+
+
+
+
+@media screen and (max-width: 1441px){
+
+
+    .portfolio{
+        .box-1{
+            .cloud{
+                width: 250px;
+
+                &.one{
+                    transform: translateY(-40%);
+                }
+
+                &.two{
+                    transform: translate(10%,-30%);
+                }
+
+                &.three{
+                    transform: translate(-5%,-25%);
+                }
+            }
+        }
+
+        .down{
+            right: 27.4%;
+        }
+    }
+
+
+}
+
+
+
 
 
 
@@ -429,7 +468,13 @@
                 width: 150px;
 
                 &.one{
-                    transform: translateY(-30%);
+                    transform: translateY(-80%);
+                }
+                &.two{
+                    transform: translate(-20%,-60%);
+                }
+                &.three{
+                    transform: translate(20%,-50%);
                 }
             }
         }
@@ -438,21 +483,23 @@
 
     @keyframes cloud_1{
         0%{}
-        100%{transform:translateY(10%);
+        100%{transform:translateY(-55%);
              opacity: 20%;}
     }
     @keyframes cloud_2{
         0%{}
-        100%{transform:translate(-30%, -40%);
+        100%{transform:translate(-50%, -60%);
              opacity: 20%;}
     }
     @keyframes cloud_3{
         0%{}
-        100%{transform:translateX(30%);
+        100%{transform:translate(50%, -50%);
              opacity: 20%;}
     }
     
 }
+
+
 
 
 @media screen and (max-width: 550px){

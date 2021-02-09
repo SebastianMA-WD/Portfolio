@@ -31,3 +31,15 @@ body{
 html,body{
     overflow-x: hidden;
 }
+
+.fp-right{
+    ul{
+        li{
+            .active{
+                span{
+                    background: #fff;
+                }
+            }
+        }
+    }
+}
