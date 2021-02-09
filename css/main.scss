@@ -32,14 +32,7 @@ html,body{
     overflow-x: hidden;
 }
 
-.fp-right{
-    ul{
-        li{
-            .active{
-                span{
-                    background: #fff;
-                }
-            }
-        }
-    }
+#fp-nav ul li a span, 
+.fp-slidesNav ul li a span {
+    background: $azul_principal !important;
 }

@@ -109,14 +109,19 @@
   animation: cloud_3 3s ease-out forwards;
 }
 
+.portfolio .scroll {
+  position: absolute;
+  right: 30.5%;
+}
+
 .portfolio .down {
   position: absolute;
   letter-spacing: 5px;
   top: 85%;
-  right: 27.7%;
+  left: 68.8%;
 }
 
-.portfolio .down .o {
+.portfolio .down span {
   color: #00b4d8;
   background: none;
 }
@@ -350,8 +355,14 @@
   .portfolio .box-1 .cloud.three {
     transform: translate(-60%, -20%);
   }
+  .portfolio .scroll {
+    position: absolute;
+    right: 29.8%;
+    font-size: 2rem;
+  }
   .portfolio .down {
-    right: 28.4%;
+    left: 68.5%;
+    font-size: 2rem;
   }
   @keyframes cloud_1 {
     0% {
@@ -379,7 +390,7 @@
   }
 }
 
-@media screen and (max-width: 1920px) {
+@media screen and (max-width: 1921px) {
   .portfolio .box-1 .cloud {
     width: 300px;
   }
@@ -391,6 +402,13 @@
   }
   .portfolio .box-1 .cloud.three {
     transform: translate(-10%, -10%);
+  }
+  .portfolio .down {
+    font-size: 1rem;
+    left: 68.9%;
+  }
+  .portfolio .scroll {
+    font-size: 1rem;
   }
   @keyframes cloud_1 {
     0% {
@@ -407,7 +425,7 @@
     width: 250px;
   }
   .portfolio .box-1 .cloud.one {
-    transform: translateY(-60%);
+    transform: translateY(-50%);
   }
   .portfolio .box-1 .cloud.two {
     transform: translate(10%, -50%);
@@ -417,6 +435,10 @@
   }
   .portfolio .down {
     right: 27.4%;
+    font-size: 1rem;
+  }
+  .portfolio .scroll {
+    font-size: 1rem;
   }
   @keyframes cloud_1 {
     0% {
@@ -449,7 +471,7 @@
     width: 250px;
   }
   .portfolio .box-1 .cloud.one {
-    transform: translateY(-40%);
+    transform: translateY(-30%);
   }
   .portfolio .box-1 .cloud.two {
     transform: translate(10%, -30%);
@@ -778,7 +800,8 @@ html, body {
   overflow-x: hidden;
 }
 
-.fp-right ul li .active span {
-  background: #fff;
+#fp-nav ul li a span,
+.fp-slidesNav ul li a span {
+  background: #00b4d8 !important;
 }
 /*# sourceMappingURL=main.css.map */

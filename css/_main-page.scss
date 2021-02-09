@@ -113,14 +113,17 @@
             }
             
         }
-
+        .scroll{
+            position: absolute;
+            right: 30.5%;
+        }
         .down{
             position: absolute;
             letter-spacing: 5px;
             top: 85%;
-            right: 27.7%;
+            left: 68.8%;
 
-            .o{
+            span{
                 color: $azul_principal;
                 background: none;
             }

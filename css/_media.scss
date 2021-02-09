@@ -18,9 +18,15 @@
                 }
             }
         }
-
+        .scroll{
+            position: absolute;
+            right: 29.8%;
+            font-size: 2rem;
+        }
         .down{
-            right: 28.4%;
+            left: 68.5%;
+            font-size: 2rem;
+
         }
     }
 
@@ -51,7 +57,7 @@
 
 
 
-@media screen and (max-width: 1920px){
+@media screen and (max-width: 1921px){
     .portfolio{
         .box-1{
             .cloud{
@@ -70,6 +76,13 @@
                 }
             }
         }
+        .down{
+            font-size: 1rem;
+            left: 68.9%;
+        }
+        .scroll{
+            font-size: 1rem;
+        }
     }
 
     @keyframes cloud_1{
@@ -77,6 +90,8 @@
         100%{transform:translateY(15%);
              opacity: 20%;}
     }
+
+
 }             
 
 
@@ -93,7 +108,7 @@
                 width: 250px;
 
                 &.one{
-                    transform: translateY(-60%);
+                    transform: translateY(-50%);
                 }
 
                 &.two{
@@ -108,6 +123,10 @@
 
         .down{
             right: 27.4%;
+            font-size: 1rem;
+        }
+        .scroll{
+            font-size: 1rem;
         }
     }
 
@@ -146,7 +165,7 @@
                 width: 250px;
 
                 &.one{
-                    transform: translateY(-40%);
+                    transform: translateY(-30%);
                 }
 
                 &.two{

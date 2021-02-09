@@ -33,6 +33,6 @@ new fullpage('#fullpage',{
 
     autoScrolling:true,
     navigation: true,
-    
-
+    anchors:['home','about','projects','contact'],
+    navigationTooltips:['Home', 'About Me', 'Projects', 'Contact Me']
 });
