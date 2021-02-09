@@ -3,11 +3,25 @@
     .portfolio{
         .box-1{
             .cloud{
-                width: 300px;
+                width: 250px;
+
+                &.one{
+                    transform: translateY(-10%);
+                }
+
+                &.two{
+                    transform: translate(-10%,-15%);
+                }
+
+                &.three{
+                    transform: translate(10%,-10%);
+                }
             }
         }
 
-
+        .down{
+            right: 27.4%;
+        }
     }
 
     @keyframes cloud_1{
@@ -31,18 +45,7 @@
 }
 
 
-@media screen and (max-width: 1550px){
 
-    .portfolio{
-        .box-1{
-            .cloud{
-                width: 250px;
-            }
-        }
-
-
-    }
-}
 
 
 
@@ -151,6 +154,12 @@
 
         h3{
             font-size: 1.5rem;
+        }
+    }
+
+    .portfolio{
+        .down,.scroll{
+            display: none;
         }
     }
     

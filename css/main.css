@@ -71,6 +71,7 @@
   align-items: center;
   width: 50%;
   height: 30vh;
+  text-transform: uppercase;
 }
 
 .portfolio .box-1 h2 {
@@ -106,6 +107,17 @@
 
 .portfolio .box-1 .hover3 {
   animation: cloud_3 3s ease-out forwards;
+}
+
+.portfolio .down {
+  position: absolute;
+  letter-spacing: 5px;
+  top: 85%;
+  right: 27.7%;
+}
+
+.portfolio .down span {
+  color: #00b4d8;
 }
 
 .main-header {
@@ -326,7 +338,19 @@
 
 @media screen and (max-width: 1550px) {
   .portfolio .box-1 .cloud {
-    width: 300px;
+    width: 250px;
+  }
+  .portfolio .box-1 .cloud.one {
+    transform: translateY(-10%);
+  }
+  .portfolio .box-1 .cloud.two {
+    transform: translate(-10%, -15%);
+  }
+  .portfolio .box-1 .cloud.three {
+    transform: translate(10%, -10%);
+  }
+  .portfolio .down {
+    right: 27.4%;
   }
   @keyframes cloud_1 {
     0% {
@@ -351,12 +375,6 @@
       transform: translateX(30%);
       opacity: 20%;
     }
-  }
-}
-
-@media screen and (max-width: 1550px) {
-  .portfolio .box-1 .cloud {
-    width: 250px;
   }
 }
 
@@ -445,6 +463,9 @@
   }
   .main-name h3 {
     font-size: 1.5rem;
+  }
+  .portfolio .down, .portfolio .scroll {
+    display: none;
   }
 }
 

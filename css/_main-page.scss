@@ -73,6 +73,8 @@
             align-items: center;
             width: 50%;
             height: 30vh;
+            text-transform: uppercase;
+
 
             h2{
                 position: absolute;
@@ -110,6 +112,17 @@
                 animation: cloud_3 3s ease-out forwards;
             }
             
+        }
+
+        .down{
+            position: absolute;
+            letter-spacing: 5px;
+            top: 85%;
+            right: 27.7%;
+
+            span{
+                color: $azul_principal;
+            }
         }
 
     }
