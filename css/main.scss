@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;700&display=swap');
 @import 'variables';
 @import 'scrollbar';
-@import 'main_page';
 @import 'header';
+@import 'main_page';
 @import 'about_me';
+@import 'skills';
 @import 'animations';
 @import 'media';
 
@@ -26,13 +27,10 @@ html,body{
     overflow-x: hidden;
 }
 
-#fp-nav ul li a span, 
-.fp-slidesNav ul li a span {
-    background: $azul_principal !important;
-}
 
 .section{
     height: 100vh;
+    background: $gris_principal;
 }
 
 
