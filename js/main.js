@@ -27,12 +27,16 @@ $('#animation_start').hover(function(){
 
 });
 
-/*FULLPAGE*/
 
-new fullpage('#fullpage',{
+/*SCROLLBAR*/
 
-    autoScrolling:true,
-    navigation: true,
-    anchors:['home','about','projects','contact'],
-    navigationTooltips:['Home', 'About Me', 'Projects', 'Contact Me']
-});
+$(window).scroll(function(){
+
+    var scroll = $(window).scrollTop(),
+    dh = $(document).height(),
+    wh = $(window).height();
+    scrollPercent = (scroll/ (dh-wh)) * 100;
+    $('#progressbar').css('height',scrollPercent + '%')
+
+})
+

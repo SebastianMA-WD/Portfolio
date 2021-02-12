@@ -1,4 +1,20 @@
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;700&display=swap");
+::-webkit-scrollbar {
+  width: 0;
+}
+
+#progressbar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 15px;
+  height: 100%;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background: linear-gradient(to bottom, #80ffdb, #00b4d8, #6930c3);
+  z-index: 10;
+}
+
 .main-name {
   width: 100%;
   height: 70vh;
@@ -238,6 +254,97 @@
   display: flex;
 }
 
+.s2 {
+  background: #36454f;
+}
+
+.s2 .about-page {
+  position: relative;
+  display: flex;
+  color: #fff;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.s2 .about-page .about-me {
+  position: relative;
+  width: 100%;
+  height: 30vh;
+}
+
+.s2 .about-page .about-me h2 {
+  position: relative;
+  font-size: 6rem;
+  padding-top: 10vh;
+  padding-bottom: 1vh;
+  top: 0%;
+  left: 10%;
+  text-transform: uppercase;
+  font-weight: normal;
+}
+
+.s2 .about-page .about-me .span-div {
+  position: relative;
+  width: 400px;
+  height: 5px;
+  display: flex;
+  left: 9%;
+  top: 0%;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10vh;
+}
+
+.s2 .about-page .about-me .span-div .span-line {
+  position: absolute;
+  padding: 20px;
+  width: 400px;
+  height: 5px;
+}
+
+.s2 .about-page .about-me .span-div .span-line::before, .s2 .about-page .about-me .span-div .span-line::after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  height: 30%;
+  width: 50%;
+  border-radius: 2px;
+}
+
+.s2 .about-page .about-me .span-div .span-line::before {
+  left: 0;
+  border-bottom: 9px solid #00b4d8;
+  width: 60%;
+}
+
+.s2 .about-page .about-me .span-div .span-line::after {
+  right: 0;
+  border-top: 9px solid #00b4d8;
+  width: 35%;
+}
+
+.s2 .about-page .about-description {
+  position: relative;
+  width: 100%;
+  height: 70vh;
+  padding-top: 50px;
+}
+
+.s2 .about-page .about-description .about-text {
+  margin-top: 5%;
+  margin-left: 20%;
+  margin-right: 20%;
+  position: relative;
+  top: 0%;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  text-align: center;
+  font-size: 19px;
+  transition: 1s;
+}
+
 @keyframes pulse {
   from {
     box-shadow: 0 0 0 0px rgba(255, 255, 255, 0.6);
@@ -358,11 +465,11 @@
   .portfolio .scroll {
     position: absolute;
     right: 29.8%;
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
   .portfolio .down {
     left: 68.5%;
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
   @keyframes cloud_1 {
     0% {
@@ -787,15 +894,6 @@ body {
   font-family: 'Oswald',sans-serif;
 }
 
-.container {
-  width: 80%;
-  margin: 0 auto;
-}
-
-.container p {
-  margin: 1rem 0;
-}
-
 html, body {
   overflow-x: hidden;
 }
@@ -803,5 +901,9 @@ html, body {
 #fp-nav ul li a span,
 .fp-slidesNav ul li a span {
   background: #00b4d8 !important;
+}
+
+.section {
+  height: 100vh;
 }
 /*# sourceMappingURL=main.css.map */
