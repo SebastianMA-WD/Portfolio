@@ -60,9 +60,9 @@
                 }
         
                 &::after{
-                    right: -25%;
+                    right: -67%;
                     border-top: 9px solid $azul_principal;
-                    width: 90%;
+                    width: 135%;
                 }
         
             }
@@ -110,11 +110,11 @@
     transform: translateY(100px);
 
     .content{
-        opacity: 0.2;
+        opacity: 1;
         transition: 0.5s;
 
         img{
-            max-width: 100px;
+            max-width: 200px;
         }
 
         h3{

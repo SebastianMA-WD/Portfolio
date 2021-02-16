@@ -6,6 +6,7 @@
 @import 'about_me';
 @import 'skills';
 @import 'projects';
+@import 'contact_me';
 @import 'animations';
 @import 'media';
 
@@ -19,7 +20,7 @@
 
 body{
     font-family: 'Oswald',sans-serif;
-
+    background: $gris_principal;
 }
 
 
