@@ -781,6 +781,31 @@ input[type="submit"]:hover {
   background: #1a27d6;
 }
 
+footer {
+  height: 10vh;
+  width: 100%;
+  background: #252525;
+  color: #fff;
+  position: absolute;
+  bottom: -100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+footer .fa-twitter {
+  font-size: 2rem;
+  color: #1da1f2;
+  padding: 0 40px;
+}
+
+footer .fa-github {
+  font-size: 2rem;
+  color: #f5f5f5;
+  padding: 0 40px;
+}
+
 @keyframes pulse {
   from {
     box-shadow: 0 0 0 0px rgba(255, 255, 255, 0.6);
