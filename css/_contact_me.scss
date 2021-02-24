@@ -13,6 +13,11 @@
     right: 10%;
     text-transform: uppercase;
     font-weight: normal;
+    text-shadow: 0 0 10px rgba($color: $azul_principal, $alpha: 1),
+      0 0 20px rgba($color: $azul_principal, $alpha: 1),
+      0 0 40px rgba($color: $azul_principal, $alpha: 1),
+      0 0 80px rgba($color: $azul_principal, $alpha: 1),
+      0 0 160px rgba($color: $azul_principal, $alpha: 1);
   }
 
   .row100 {
@@ -122,13 +127,17 @@ input[type="submit"] {
   cursor: pointer;
   outline: none;
   background: $azul_principal;
-  color: #000;
+  color: rgb(0, 0, 0);
   font-size: 18px;
   border-radius: 2px;
   transition: 0.3s;
 
   &:hover {
-    color: #fff;
-    background: #1a27d6;
+    color: #000;
+    text-shadow: 0 0 10px rgba($color: #fff, $alpha: 1),
+      0 0 20px rgba($color: #fff, $alpha: 1),
+      0 0 40px rgba($color: #fff, $alpha: 1),
+      0 0 80px rgba($color: #fff, $alpha: 1),
+      0 0 160px rgba($color: #fff, $alpha: 1);
   }
 }

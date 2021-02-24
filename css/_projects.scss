@@ -21,6 +21,11 @@
       top: 5%;
       text-transform: uppercase;
       font-weight: normal;
+      text-shadow: 0 0 10px rgba($color: $azul_principal, $alpha: 1),
+        0 0 20px rgba($color: $azul_principal, $alpha: 1),
+        0 0 40px rgba($color: $azul_principal, $alpha: 1),
+        0 0 80px rgba($color: $azul_principal, $alpha: 1),
+        0 0 160px rgba($color: $azul_principal, $alpha: 1);
     }
     .span-div {
       position: relative;
@@ -43,7 +48,7 @@
           content: "";
           display: block;
           position: absolute;
-          top: 0%;
+          top: 40%;
           height: 30%;
           width: 50%;
           border-radius: 2px;
@@ -117,6 +122,11 @@
         color: #fff;
         text-align: center;
         font-size: 1.5em;
+        text-shadow: 0 0 10px rgba($color: $azul_principal, $alpha: 1),
+          0 0 20px rgba($color: $azul_principal, $alpha: 1),
+          0 0 40px rgba($color: $azul_principal, $alpha: 1),
+          0 0 80px rgba($color: $azul_principal, $alpha: 1),
+          0 0 160px rgba($color: $azul_principal, $alpha: 1);
       }
     }
   }

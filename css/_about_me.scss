@@ -24,6 +24,11 @@
         right: 10%;
         text-transform: uppercase;
         font-weight: normal;
+        text-shadow: 0 0 10px rgba($color: $azul_principal, $alpha: 1),
+          0 0 20px rgba($color: $azul_principal, $alpha: 1),
+          0 0 40px rgba($color: $azul_principal, $alpha: 1),
+          0 0 80px rgba($color: $azul_principal, $alpha: 1),
+          0 0 160px rgba($color: $azul_principal, $alpha: 1);
       }
 
       .span-div {

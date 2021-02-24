@@ -41,8 +41,7 @@
 }
 
 .main-header .nav-links .nav-link {
-  transition: opacity 0.4s ease-in-out,
-    transform 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transition: opacity 0.4s ease-in-out, transform 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
 .main-header .nav-links .nav-link:nth-of-type(2) {
@@ -83,8 +82,7 @@
   border-radius: 4px;
 }
 
-.main-header .menu-icon_line::before,
-.main-header .menu-icon_line::after {
+.main-header .menu-icon_line::before, .main-header .menu-icon_line::after {
   content: "";
   position: absolute;
   height: 100%;
@@ -121,9 +119,7 @@
   color: #fff;
 }
 
-.main-header.scrolled .menu-icon_line,
-.main-header.scrolled .menu-icon_line::before,
-.main-header.scrolled .menu-icon_line::after {
+.main-header.scrolled .menu-icon_line, .main-header.scrolled .menu-icon_line::before, .main-header.scrolled .menu-icon_line::after {
   background: #fff;
 }
 
@@ -155,8 +151,7 @@
   margin-top: 10vh;
 }
 
-.main-name h1::before,
-.main-name h1::after {
+.main-name h1::before, .main-name h1::after {
   content: "";
   position: absolute;
   top: 0;
@@ -182,6 +177,7 @@
   margin: 0 35vw;
   border-radius: 20px 0;
   bottom: 5%;
+  text-shadow: 0 0 10px #00b4d8, 0 0 20px #00b4d8, 0 0 40px #00b4d8, 0 0 80px #00b4d8, 0 0 160px #00b4d8;
 }
 
 .portfolio {
@@ -215,7 +211,7 @@
 
 .portfolio .box-1 .cloud.one {
   position: absolute;
-  bottom: 10%;
+  top: 0%;
 }
 
 .portfolio .box-1 .cloud.two {
@@ -257,6 +253,7 @@
 .portfolio .down span {
   color: #00b4d8;
   background: none;
+  text-shadow: 0 0 10px #00b4d8, 0 0 20px #00b4d8, 0 0 40px #00b4d8, 0 0 80px #00b4d8, 0 0 160px #00b4d8;
 }
 
 .s2 {
@@ -288,6 +285,7 @@
   right: 10%;
   text-transform: uppercase;
   font-weight: normal;
+  text-shadow: 0 0 10px #00b4d8, 0 0 20px #00b4d8, 0 0 40px #00b4d8, 0 0 80px #00b4d8, 0 0 160px #00b4d8;
 }
 
 .s2 .about-page .about-me .span-div {
@@ -309,8 +307,7 @@
   height: 5px;
 }
 
-.s2 .about-page .about-me .span-div .span-line::before,
-.s2 .about-page .about-me .span-div .span-line::after {
+.s2 .about-page .about-me .span-div .span-line::before, .s2 .about-page .about-me .span-div .span-line::after {
   content: "";
   display: block;
   position: absolute;
@@ -380,6 +377,7 @@
   transform: translateX(-15%);
   color: #fff;
   font-size: 3rem;
+  text-shadow: 0 0 10px #00b4d8, 0 0 20px #00b4d8, 0 0 40px #00b4d8, 0 0 80px #00b4d8, 0 0 160px #00b4d8;
 }
 
 .s3 .container-3 .skill-container .skills {
@@ -503,6 +501,7 @@
   top: 5%;
   text-transform: uppercase;
   font-weight: normal;
+  text-shadow: 0 0 10px #00b4d8, 0 0 20px #00b4d8, 0 0 40px #00b4d8, 0 0 80px #00b4d8, 0 0 160px #00b4d8;
 }
 
 .projects-page .projects .span-div {
@@ -522,12 +521,11 @@
   height: 5px;
 }
 
-.projects-page .projects .span-div .span-line::before,
-.projects-page .projects .span-div .span-line::after {
+.projects-page .projects .span-div .span-line::before, .projects-page .projects .span-div .span-line::after {
   content: "";
   display: block;
   position: absolute;
-  top: 0%;
+  top: 40%;
   height: 30%;
   width: 50%;
   border-radius: 2px;
@@ -601,6 +599,7 @@
   color: #fff;
   text-align: center;
   font-size: 1.5em;
+  text-shadow: 0 0 10px #00b4d8, 0 0 20px #00b4d8, 0 0 40px #00b4d8, 0 0 80px #00b4d8, 0 0 160px #00b4d8;
 }
 
 .projects-page .card-container .card:hover .face.face1 {
@@ -670,6 +669,7 @@
   right: 10%;
   text-transform: uppercase;
   font-weight: normal;
+  text-shadow: 0 0 10px #00b4d8, 0 0 20px #00b4d8, 0 0 40px #00b4d8, 0 0 80px #00b4d8, 0 0 160px #00b4d8;
 }
 
 .contact-page .row100 {
@@ -780,15 +780,15 @@ input[type="submit"] {
   cursor: pointer;
   outline: none;
   background: #00b4d8;
-  color: #000;
+  color: black;
   font-size: 18px;
   border-radius: 2px;
   transition: 0.3s;
 }
 
 input[type="submit"]:hover {
-  color: #fff;
-  background: #1a27d6;
+  color: #000;
+  text-shadow: 0 0 10px white, 0 0 20px white, 0 0 40px white, 0 0 80px white, 0 0 160px white;
 }
 
 footer {
@@ -1037,8 +1037,7 @@ footer .fa-github {
   .main-header .menu-btn:checked ~ .nav-links .nav-link {
     opacity: 1;
     transform: translateX(0);
-    transition: opacity 0.4s ease-in-out,
-      transform 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    transition: opacity 0.4s ease-in-out, transform 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
   }
   .main-header .menu-btn:checked ~ .nav-links .nav-link:nth-of-type(1) {
     transition-delay: 0.7s;
@@ -1105,8 +1104,7 @@ footer .fa-github {
   .projects-page .projects .span-div {
     height: 15%;
   }
-  .projects-page .projects .span-div .span-line::before,
-  .projects-page .projects .span-div .span-line::after {
+  .projects-page .projects .span-div .span-line::before, .projects-page .projects .span-div .span-line::after {
     content: "";
     display: block;
     position: absolute;
@@ -1146,8 +1144,7 @@ footer .fa-github {
     width: 400px;
     height: 5px;
   }
-  .s2 .about-page .about-me .span-div .span-line::before,
-  .s2 .about-page .about-me .span-div .span-line::after {
+  .s2 .about-page .about-me .span-div .span-line::before, .s2 .about-page .about-me .span-div .span-line::after {
     content: "";
     display: block;
     position: absolute;
@@ -1190,8 +1187,7 @@ footer .fa-github {
   .projects-page .projects h2 {
     font-size: 3rem;
   }
-  .projects-page .projects .span-div .span-line::before,
-  .projects-page .projects .span-div .span-line::after {
+  .projects-page .projects .span-div .span-line::before, .projects-page .projects .span-div .span-line::after {
     content: "";
     display: block;
     position: absolute;
@@ -1217,8 +1213,7 @@ footer .fa-github {
   .projects-page .projects h2 {
     font-size: 2.5rem;
   }
-  .projects-page .projects .span-div .span-line::before,
-  .projects-page .projects .span-div .span-line::after {
+  .projects-page .projects .span-div .span-line::before, .projects-page .projects .span-div .span-line::after {
     content: "";
     display: block;
     position: absolute;
@@ -1244,8 +1239,7 @@ footer .fa-github {
   .projects-page .projects h2 {
     font-size: 2.2rem;
   }
-  .projects-page .projects .span-div .span-line::before,
-  .projects-page .projects .span-div .span-line::after {
+  .projects-page .projects .span-div .span-line::before, .projects-page .projects .span-div .span-line::after {
     content: "";
     display: block;
     position: absolute;

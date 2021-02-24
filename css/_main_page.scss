@@ -46,6 +46,11 @@
     margin: 0 35vw;
     border-radius: 20px 0;
     bottom: 5%;
+    text-shadow: 0 0 10px rgba($color: $azul_principal, $alpha: 1),
+      0 0 20px rgba($color: $azul_principal, $alpha: 1),
+      0 0 40px rgba($color: $azul_principal, $alpha: 1),
+      0 0 80px rgba($color: $azul_principal, $alpha: 1),
+      0 0 160px rgba($color: $azul_principal, $alpha: 1);
   }
 }
 
@@ -80,7 +85,7 @@
     .cloud {
       &.one {
         position: absolute;
-        bottom: 10%;
+        top: 0%;
       }
 
       &.two {
@@ -117,6 +122,11 @@
     span {
       color: $azul_principal;
       background: none;
+      text-shadow: 0 0 10px rgba($color: $azul_principal, $alpha: 1),
+        0 0 20px rgba($color: $azul_principal, $alpha: 1),
+        0 0 40px rgba($color: $azul_principal, $alpha: 1),
+        0 0 80px rgba($color: $azul_principal, $alpha: 1),
+        0 0 160px rgba($color: $azul_principal, $alpha: 1);
     }
   }
 }
